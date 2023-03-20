@@ -399,7 +399,7 @@ class App extends Component<{}, AppState> {
     }
     render() {
         return (
-            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '98vh', margin: '0 auto' }}>
+            <div>
                 <div >
                     <label><input type="checkbox" checked={this.state.showExplanation} onChange={e => this.handleExplanationChange(e)} />
                             &nbsp;Detayları göster</label>
